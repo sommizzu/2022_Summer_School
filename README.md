@@ -168,7 +168,7 @@ Google Link: [google][googlelink]
 
 <strike>취소선</strike>은 <s>stike</s> 또는 <del>del</del>를 사용하세요. 
 
-7. Image
+8. Image
 ---------------
 // examle 1
 ![Street](1.jpg "Oxford")
@@ -179,6 +179,27 @@ Inline-style:
 Reference-style: 
 ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+'크기 조절'
+
+<img src="TestImage.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="TestImage.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+
+9. FootNote
+---------------
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
 
 ### Github 원격지 저장 활용 시험
 * Github Test
