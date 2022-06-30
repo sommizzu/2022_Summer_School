@@ -136,7 +136,8 @@ export default MyComponent;
 
 Google Link: [google][googlelink]
 
-[googlelink]: https://google.co.uk "Let's Go Google
+[googlelink]: https://google.co.uk "Let's Go Google"
+
 
 * 외부링크
 [Google Site] (https://google.co.uk "Let's Go Google“)
