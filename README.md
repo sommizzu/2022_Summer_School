@@ -170,7 +170,6 @@ Google Link: [google][googlelink]
 
 7. Image
 ---------------
-![alt text](image url "image Title")
 // examle 1
 ![Street](1.jpg "Oxford")
 
