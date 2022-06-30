@@ -96,7 +96,7 @@ Car(String modelName, int modelYear, String color, int maxSpeed) {
 
 ## 4.3 " ''' " 이용
 + Source Code 내용
-" ' ' ' "
+'''
 import React from 'react';
 
 function MyComponent(props) {
@@ -108,7 +108,7 @@ function MyComponent(props) {
 }
 
 export default MyComponent;
-" ' ' ' "
+'''
 
 ## 4.3.2 " ' ' ' " 이용
 + Source Code (JavaScript)내용 
@@ -155,21 +155,18 @@ Google Link: [google][googlelink]
 
 7. Emphasis
 ---------------
-
-이텔릭체 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용
-// examle
+// example
 
 이텔릭체 *별표(asterisks)* 혹은 _언더바(underscore)_ 사용
 
 두껍게는 ** 별표(asterisks)* 혹은 __언더바(underscore)__를 사용
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__ 사용
 
 **_이텔릭체_와 두껍게**를 같이 사용할 수 있음
 
-취소선은 ~~물결표시(tilde)~~를 사용
 취소선은 ~~물결표시(tilde)~~ 를 사용
 
 <strike>취소선</strike>은 <s>stike</s> 또는 <del>del</del>를 사용하세요. 
+
 ### Github 원격지 저장 활용 시험
 * Github Test
 ## 2022.06.29.(Wen.)
