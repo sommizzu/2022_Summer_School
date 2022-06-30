@@ -132,11 +132,14 @@ export default MyComponent;
 ---------------
 * 참조링크
 // examle
-Google Homepage: https://google.co.uk 
+
+Google Link: [google][googlelink]
 
 [googlelink]: https://google.co.uk "Let's Go Google
-Naver Homepage: <https://naver.com>
 
+* 외부링크
+[Google Site] (https://google.co.uk "Let's Go Google“)
+[Naver Site] (https://naver.com "Let's Go Naver“)
 
 ### Github 원격지 저장 활용 시험
 * Github Test
