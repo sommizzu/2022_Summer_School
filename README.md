@@ -128,6 +128,16 @@ export default MyComponent;
 *****
 -----
 
+6. Link
+---------------
+* 참조링크
+// examle
+Google Homepage: https://google.co.uk 
+
+[googlelink]: https://google.co.uk "Let's Go Google
+Naver Homepage: <https://naver.com>
+
+
 ### Github 원격지 저장 활용 시험
 * Github Test
 ## 2022.06.29.(Wen.)
