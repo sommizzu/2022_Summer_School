@@ -168,6 +168,19 @@ Google Link: [google][googlelink]
 
 <strike>취소선</strike>은 <s>stike</s> 또는 <del>del</del>를 사용하세요. 
 
+7. Image
+---------------
+![alt text](image url "image Title")
+// examle 1
+![Street](TestImage.jpg "Oxford")
+
+// examle 2
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+Reference-style: 
+![alt text][logo]
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 ### Github 원격지 저장 활용 시험
 * Github Test
 ## 2022.06.29.(Wen.)
