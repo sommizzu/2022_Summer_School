@@ -95,10 +95,10 @@ Car(String modelName, int modelYear, String color, int maxSpeed) {
 </pre>
 
 ## 4.3 " ''' " 이용
-+ Source Code 내용  
-
-``` js
++ Source Code 내용
+" ' ' ' "
 import React from 'react';
+
 function MyComponent(props) {
   if (props.isBar) {
     return <div>Bar</div>;
@@ -108,14 +108,22 @@ function MyComponent(props) {
 }
 
 export default MyComponent;
-```
+" ' ' ' "
 
-## 4.3 " ' ' ' " 이용
 ## 4.3.2 " ' ' ' " 이용
 + Source Code (JavaScript)내용 
 
 ```js
-@@ -148,6 +148,22 @@ function MyComponent(props) {
+import React from 'react';
+
+function MyComponent(props) {
+  if (props.isBar) {
+    return <div>Bar</div>;
+  }
+
+  return <div>Foo</div>;
+}
+
 export default MyComponent;
 ```
 
