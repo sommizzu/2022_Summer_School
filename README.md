@@ -73,7 +73,7 @@
 	세계에서 7번째 우주 강국
 누리호 성공 축하!!!! 
 
-## 4.2{ } 이용
+## 4.2{ } 이용방법
 <pre>
 <code>
 class Car {
@@ -97,19 +97,16 @@ Car(String modelName, int modelYear, String color, int maxSpeed) {
 ## 4.3 " ''' " 이용
 + Source Code 내용
 
-'''
+```
 import React from 'react';
-
 function MyComponent(props) {
-  if (props.isBar) {
-    return <div>Bar</div>;
-  }
-
-  return <div>Foo</div>;
+	if (props.isBar) {
+		return <div>Bar</div>;
 }
-
+	return <div>Foo</div>;
+}
 export default MyComponent;
-'''
+```
 
 ## 4.3.2 " ' ' ' " 이용
 + Source Code (JavaScript)내용 
@@ -148,10 +145,12 @@ Google Link: [google][googlelink]
 [googlelink]: https://google.co.uk "Let's Go Google"
 
 
-* 외부링크       
-// example        
-[Google Site] (https://google.co.uk "Let's Go Google“)    
-[Naver Site] (https://naver.com "Let's Go Naver“)    
+* 외부링크
+// example
+
+[Google Site] https://google.co.uk
+
+[Naver Site] https://naver.com
 
 
 7. Emphasis
@@ -171,39 +170,31 @@ Google Link: [google][googlelink]
 8. Image
 ---------------
 // examle 1
-![Street](1.jpg "Oxford")
+![Street](1.jpg "공부는 어려워")
 
-// examle 2
 Inline-style: 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-Reference-style: 
-![alt text][logo]
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 '크기 조절'
+<img src="1.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="1.jpeg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
-<img src="TestImage.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="TestImage.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-
-
-9. FootNote
----------------
+9. Footnotes
+----------------------------------------
 Here is a simple footnote[^1].
 
-A footnote can also have multiple lines[^2].  
-
+A footnote can also have multiple lines[^2].
 You can also use words, to fit your writing style more closely[^note].
 
 [^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
+[^2]: Every new line should be prefixed with 2 spaces.
+	This allows you to have a footnote with multiple lines.
 [^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
+	Named footnotes will still render with numbers instead of the text but allow easier identification and linking.
+	This footnote also has been made with a different syntax using 4 spaces for new lines.
 
-10. FootNote
----------------
-// example 1
+10. Table
+---------------------------------------
 
 | 값 | 의미 | 기본값 |
 |---|:---:|---:|
@@ -211,6 +202,21 @@ You can also use words, to fit your writing style more closely[^note].
 | `relative` | 요소 자신을 기준으로 배치 | |
 | `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 | |
 | `fixed` | 브라우저 창을 기준으로 배치 | |
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+11. 줄바꿈
+---------------------------------------
+
+예를 들어, 지금  
+공백 2번 만들어서 지금과 공백 사이에서 줄 바꿈이 된다.
+
+안녕하세요. <br>반갑습니다. 줄이 바뀌었어요.
+
+
 
 ### Github 원격지 저장 활용 시험
 * Github Test
