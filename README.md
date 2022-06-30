@@ -139,9 +139,10 @@ Google Link: [google][googlelink]
 [googlelink]: https://google.co.uk "Let's Go Google"
 
 
-* 외부링크
-[Google Site] (https://google.co.uk "Let's Go Google“)
-[Naver Site] (https://naver.com "Let's Go Naver“)
+* 외부링크       
+// example        
+[Google Site] (https://google.co.uk "Let's Go Google“)    
+[Naver Site] (https://naver.com "Let's Go Naver“)    
 
 ### Github 원격지 저장 활용 시험
 * Github Test
