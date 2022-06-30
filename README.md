@@ -73,7 +73,7 @@
 	세계에서 7번째 우주 강국
 누리호 성공 축하!!!! 
 
-## 4.2{ }들여쓰기 이용
+## 4.2{ } 이용
 <pre>
 <code>
 class Car {
@@ -82,6 +82,7 @@ class Car {
 	private String color;
 	private int maxSpeed;
 	private int currentSpeed;
+
 Car(String modelName, int modelYear, String color, int maxSpeed) {
 	this.modelName = modelName;
 	this.modelYear = modelYear;
