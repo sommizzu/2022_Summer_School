@@ -131,7 +131,8 @@ export default MyComponent;
 6. Link
 ---------------
 * 참조링크
-// examle
+
+// example
 
 Google Link: [google][googlelink]
 
