@@ -55,8 +55,7 @@
 
 4. Code 표현
 --------------------------------------
-2.4.1 들여쓰기
---------------------------------------
+## 4.1 들여쓰기
 2022/06/21(화) 누리호 발사 성공
 
 	e_tot=0
@@ -74,7 +73,7 @@
 	세계에서 7번째 우주 강국
 누리호 성공 축하!!!! 
 
-## 2.4.2{ } 이용
+## 4.2{ } 이용
 <pre>
 <code>
 class Car {
@@ -94,6 +93,40 @@ Car(String modelName, int modelYear, String color, int maxSpeed) {
 }
 </code>
 </pre>
+
+## 4.3 " ''' " 이용
++ Source Code 내용  
+
+``` js
+import React from 'react';
+function MyComponent(props) {
+  if (props.isBar) {
+    return <div>Bar</div>;
+  }
+
+  return <div>Foo</div>;
+}
+
+export default MyComponent;
+```
+
+## 4.3 " ' ' ' " 이용
+## 4.3.2 " ' ' ' " 이용
++ Source Code (JavaScript)내용 
+
+```js
+@@ -148,6 +148,22 @@ function MyComponent(props) {
+export default MyComponent;
+```
+
+5. Draw Line
+---------------
+
+* * *
+-----
+
+*****
+-----
 
 ### Github 원격지 저장 활용 시험
 * Github Test
