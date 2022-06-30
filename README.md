@@ -9,3 +9,11 @@
 ### 3.1 Deep Learning
 #### 4.1 경사하강법
 ##### 5.1 선형회귀
+
+
+### Github 원격지 저장 활용 시험
+* Github Test
+## 2022.06.29.(Wen.)
+Github 실습
+Github 실습
+### github에서 수정
