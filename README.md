@@ -176,8 +176,8 @@ Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 '크기 조절'
-<img src="1.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="1.jpeg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="1.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="1"></img><br/>
+<img src="1.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="1"></img>
 
 9. Footnotes
 ----------------------------------------
