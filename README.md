@@ -33,17 +33,18 @@
 1. 두번째 목록
 1. 세번째 목록
 
-[순서가 없는 목록(글머리 기호 사용: *, +, - 사용)
-]
+[순서가 없는 목록(글머리 기호 사용: *, +, - 사용)]
+
 * Blue
- * Green
-  * Red
+	* Green
+		* Red
 + Blue
- + Green
-  + Red
+	+ Green
+		+ Red
 - Blue
- - Green
-  - Red
+	- Green
+		- Red
+
 
 
 
